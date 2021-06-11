@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "vm_bucket" {
-  bucket = "vm-store-${local.timestamp_sanitized}"
+  bucket = "vm-store-chi-zhang"
   acl    = "private"
   versioning {
     enabled = true
